@@ -118,6 +118,7 @@ in
       # but builds fine with our standard linker.
       # This patch removes their linker override from the cargo config.
       ./0001-linux-linker.patch
+      ./0002-add-deepseek-tools.patch
     ];
 
     patchPhase =
